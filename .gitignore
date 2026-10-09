@@ -1,0 +1,8 @@
+**/out/
+**/target/
+*.class
+*.war
+.DS_Store
+.vscode/
+.idea/
+server/src/main/resources/db.properties

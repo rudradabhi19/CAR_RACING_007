@@ -1,0 +1,20 @@
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:"Segoe UI",Arial,sans-serif;color:#eceffd;background:linear-gradient(160deg,#0b0d1e,#1d1f45);display:flex;flex-direction:column;align-items:center;padding:30px 12px}
+.card{width:100%;max-width:520px;background:rgba(255,255,255,.05);border:1px solid #3a3e78;border-radius:18px;padding:30px;box-shadow:0 12px 40px rgba(0,0,0,.45)}
+h1{margin:0;text-align:center;font-size:2.2rem;letter-spacing:2px;font-style:italic}
+.sub{text-align:center;color:#2ed5ff;letter-spacing:4px;margin:4px 0 22px;font-weight:bold}
+h2{color:#ffd32a;text-align:center;margin-top:0}
+label{display:block;font-size:.75rem;color:#8b90b8;margin:12px 0 4px;letter-spacing:1px}
+input{width:100%;padding:11px 12px;border-radius:10px;border:1px solid #3a3e78;background:#10122a;color:#eceffd;font-size:1rem}
+input:focus{outline:none;border-color:#2ed5ff}
+.btns{display:flex;gap:12px;margin-top:22px}
+button,.btn{flex:1;padding:13px;border:0;border-radius:14px;font-size:1rem;font-weight:bold;color:#fff;cursor:pointer;text-align:center;text-decoration:none;display:inline-block;background:linear-gradient(#ff6b7a,#d92d3f);box-shadow:0 4px 0 #8f1c29;transition:transform .08s}
+button.alt,.btn.alt{background:linear-gradient(#3db5f0,#1e7fb8);box-shadow:0 4px 0 #0f4c70}
+button:hover,.btn:hover{filter:brightness(1.12)}button:active,.btn:active{transform:translateY(3px);box-shadow:none}
+.err{background:rgba(255,71,87,.15);border:1px solid #ff4757;color:#ff8a95;padding:10px;border-radius:10px;text-align:center}
+nav{display:flex;gap:10px;margin-bottom:20px}nav .btn{flex:1;padding:10px;font-size:.9rem}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th{color:#8b90b8;font-size:.75rem;letter-spacing:1px;text-align:left;padding:8px}
+td{padding:10px 8px;border-top:1px solid #2a2d5c}
+tr.r1 td{color:#ffd32a;font-weight:bold}tr.r2 td{color:#c0c8d8;font-weight:bold}tr.r3 td{color:#cd7f32;font-weight:bold}tr.me td{color:#2ed5ff}
+.big{text-align:center;font-size:2.4rem;color:#ffd32a;font-weight:bold}.muted{color:#8b90b8;text-align:center}
